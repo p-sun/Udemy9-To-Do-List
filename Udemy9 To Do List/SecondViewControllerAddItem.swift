@@ -13,7 +13,7 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var getText: UITextField!
     
     
-    
+    // "Add" button
     @IBAction func buttonPressed(sender: AnyObject) {
         toDoItems.append(getText.text)
         NSUserDefaults.standardUserDefaults().setObject(toDoItems, forKey: "toDoList")

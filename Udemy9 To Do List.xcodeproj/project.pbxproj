@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9BCD0DEA1A4E734900B0BC01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD0DE91A4E734900B0BC01 /* AppDelegate.swift */; };
-		9BCD0DEC1A4E734900B0BC01 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD0DEB1A4E734900B0BC01 /* FirstViewController.swift */; };
-		9BCD0DEE1A4E734900B0BC01 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD0DED1A4E734900B0BC01 /* SecondViewController.swift */; };
+		9BCD0DEC1A4E734900B0BC01 /* FirstViewControllerToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD0DEB1A4E734900B0BC01 /* FirstViewControllerToDoList.swift */; };
+		9BCD0DEE1A4E734900B0BC01 /* SecondViewControllerAddItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD0DED1A4E734900B0BC01 /* SecondViewControllerAddItem.swift */; };
 		9BCD0DF11A4E734900B0BC01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD0DEF1A4E734900B0BC01 /* Main.storyboard */; };
 		9BCD0DF31A4E734900B0BC01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD0DF21A4E734900B0BC01 /* Images.xcassets */; };
 		9BCD0DF61A4E734900B0BC01 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCD0DF41A4E734900B0BC01 /* LaunchScreen.xib */; };
@@ -30,8 +30,8 @@
 		9BCD0DE41A4E734900B0BC01 /* Udemy9 To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Udemy9 To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCD0DE81A4E734900B0BC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BCD0DE91A4E734900B0BC01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BCD0DEB1A4E734900B0BC01 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		9BCD0DED1A4E734900B0BC01 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9BCD0DEB1A4E734900B0BC01 /* FirstViewControllerToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewControllerToDoList.swift; sourceTree = "<group>"; };
+		9BCD0DED1A4E734900B0BC01 /* SecondViewControllerAddItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewControllerAddItem.swift; sourceTree = "<group>"; };
 		9BCD0DF01A4E734900B0BC01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BCD0DF21A4E734900B0BC01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9BCD0DF51A4E734900B0BC01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				9BCD0DE91A4E734900B0BC01 /* AppDelegate.swift */,
-				9BCD0DEB1A4E734900B0BC01 /* FirstViewController.swift */,
-				9BCD0DED1A4E734900B0BC01 /* SecondViewController.swift */,
+				9BCD0DEB1A4E734900B0BC01 /* FirstViewControllerToDoList.swift */,
+				9BCD0DED1A4E734900B0BC01 /* SecondViewControllerAddItem.swift */,
 				9BCD0DEF1A4E734900B0BC01 /* Main.storyboard */,
 				9BCD0DF21A4E734900B0BC01 /* Images.xcassets */,
 				9BCD0DF41A4E734900B0BC01 /* LaunchScreen.xib */,
@@ -215,9 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BCD0DEE1A4E734900B0BC01 /* SecondViewController.swift in Sources */,
+				9BCD0DEE1A4E734900B0BC01 /* SecondViewControllerAddItem.swift in Sources */,
 				9BCD0DEA1A4E734900B0BC01 /* AppDelegate.swift in Sources */,
-				9BCD0DEC1A4E734900B0BC01 /* FirstViewController.swift in Sources */,
+				9BCD0DEC1A4E734900B0BC01 /* FirstViewControllerToDoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +409,7 @@
 				9BCD0E071A4E734900B0BC01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BCD0E081A4E734900B0BC01 /* Build configuration list for PBXNativeTarget "Udemy9 To Do ListTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				9BCD0E0A1A4E734900B0BC01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
